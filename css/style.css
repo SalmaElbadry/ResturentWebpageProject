@@ -1,0 +1,263 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* colors Uses: #08D9D6 - #252A34 - #FF2E63 - #EAEAEA */
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+html, body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.bg-dark {
+    background-color: #252A34;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #EAEAEA;
+    color: #252A34;
+}
+
+.bg-primary {
+    background-color: #571364;
+    color: #fff;
+}
+
+.text-primary {
+    color: #FF2E63;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.l-heading {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.m-heading {
+    font-size: 2rem;
+    line-height: 2;
+}
+  
+.lead {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.btn {
+    background-color: #08D9D6;
+    color: #fff;
+    padding: 0.85rem 1.7rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ca3056;
+}
+
+.box-shadow{
+    box-shadow: 0 0 2px #252A34;
+}
+/* Section: Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.200rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar .logo img {
+width: 88px;
+display: block;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 1rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #08D9D6;
+    border-radius: 5px;
+}
+
+/* Section: Showcase */
+#showcase {
+    background: #252A34 url(https://lh3.googleusercontent.com/proxy/YDAiU86Mu8z6guatSPXwdxfHCcLYbSZ0Kfs1pVg2rmIWM3nA43ZExh_VLYA1X8mwNM26zUG4RZf12kUZM9ugcdDPPvtMnuaHwIM) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+
+    /* overlay*/
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* Section: About */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .about-content div,
+#about .about-content img {
+    flex: 1;
+}
+
+#about .about-content img {
+    width: 50%;
+    margin-left: 1.5rem;
+    border: 5px solid #fff;
+}
+
+/* section: food */
+#food {
+    color: #252A34;
+}
+
+#food .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food .boxes .box {
+    flex: 1;
+    padding: 1rem;
+}
+
+#food .boxes .box img {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+/*boxes*/
+#boxes {
+    color: #252A34;
+}
+
+#boxes .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes .boxes .box {
+    flex: 1;
+    padding: 1rem;
+}
+
+#boxes .boxes .box img {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+/* Drinks */
+#drinks-and-dessert .drinks-and-dessert-boxes {
+    display: flex;
+}
+
+#drinks-and-dessert .drinks-and-dessert-boxes .drinks-and-dessert-box {
+    background-color: #fff;
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+
+}
+
+#drinks-and-dessert .drinks-and-dessert-boxes .drinks-and-dessert-box img {
+    display: block;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+
+/* section: contact */
+#contact {
+    display: flex;
+}
+
+#contact .contact-us,
+#contact .map {
+flex: 1;
+}
+
+#contact .contact-us input,
+#contact .contact-us textarea {
+width: 100%;
+padding: 0.75rem;
+border: none;
+margin-bottom: 1rem;
+outline: none;
+}
+
+#contact .contact-us ul {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+}
+
+#contact .contact-us ul li a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#contact .contact-us ul li a:hover {
+    color: #FF2E63;
+}
+
+#contact .contact-us .form-group {
+    display: flex;
+}
+
+#contact .contact-us .form-group input[type="text"] {
+    margin-right: 00.75rem;
+}
